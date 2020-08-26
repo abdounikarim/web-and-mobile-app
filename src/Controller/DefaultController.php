@@ -8,6 +8,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class DefaultController extends AbstractController
 {
     /**
+     * @Route("/")
      * @Route("/{route}", name="vue_pages", requirements={"route"="^(?!api).+"})
      */
     public function index()

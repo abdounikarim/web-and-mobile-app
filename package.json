@@ -17,6 +17,7 @@
         "build": "encore production --progress"
     },
     "dependencies": {
+        "axios": "^0.20.0",
         "vue-router": "^3.4.3"
     }
 }
