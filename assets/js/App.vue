@@ -5,11 +5,19 @@
 </style>
 
 <template>
-    <h1>Hello World</h1>
+    <div>
+        <header-component />
+        <router-view></router-view>
+    </div>
 </template>
 
 <script>
+import HeaderComponent from './components/header';
+
 export default {
     name: 'App',
+    components: {
+        HeaderComponent,
+    }
 }
 </script>

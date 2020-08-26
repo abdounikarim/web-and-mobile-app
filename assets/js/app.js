@@ -9,6 +9,7 @@
 import '../css/app.css';
 import Vue from 'vue';
 import App from './App.vue';
+import router from "./router";
 
 // Need jQuery? Install it with "yarn add jquery", then uncomment to import it.
 // import $ from 'jquery';
@@ -16,6 +17,6 @@ import App from './App.vue';
 console.log('Hello Webpack Encore! Edit me in assets/js/app.js');
 
 new Vue({
-    //router,
+    router,
     render: h => h(App)
 }).$mount('#app')
